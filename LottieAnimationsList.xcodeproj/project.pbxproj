@@ -13,6 +13,10 @@
 		4CBCB7BB29845B5300AFD815 /* AnimationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBCB7BA29845B5300AFD815 /* AnimationsListView.swift */; };
 		4CBCB7BE29845CB200AFD815 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 4CBCB7BD29845CB200AFD815 /* Lottie */; };
 		4CBCB7C029845CD900AFD815 /* LottieCiew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBCB7BF29845CD900AFD815 /* LottieCiew.swift */; };
+		4CBCB7C329845E3F00AFD815 /* Loading Cat.json in Resources */ = {isa = PBXBuildFile; fileRef = 4CBCB7C229845E3F00AFD815 /* Loading Cat.json */; };
+		4CBCB7C529845F8800AFD815 /* 118267-guitar-to-axe-morphing.json in Resources */ = {isa = PBXBuildFile; fileRef = 4CBCB7C429845F8800AFD815 /* 118267-guitar-to-axe-morphing.json */; };
+		4CBCB7C72984643B00AFD815 /* 82652-ghosts.json in Resources */ = {isa = PBXBuildFile; fileRef = 4CBCB7C62984643B00AFD815 /* 82652-ghosts.json */; };
+		4CBCB7C92984644600AFD815 /* 125659-melting.json in Resources */ = {isa = PBXBuildFile; fileRef = 4CBCB7C82984644600AFD815 /* 125659-melting.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		4CBCB7B129845A4200AFD815 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4CBCB7BA29845B5300AFD815 /* AnimationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsListView.swift; sourceTree = "<group>"; };
 		4CBCB7BF29845CD900AFD815 /* LottieCiew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieCiew.swift; sourceTree = "<group>"; };
+		4CBCB7C229845E3F00AFD815 /* Loading Cat.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Loading Cat.json"; sourceTree = "<group>"; };
+		4CBCB7C429845F8800AFD815 /* 118267-guitar-to-axe-morphing.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "118267-guitar-to-axe-morphing.json"; sourceTree = "<group>"; };
+		4CBCB7C62984643B00AFD815 /* 82652-ghosts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "82652-ghosts.json"; sourceTree = "<group>"; };
+		4CBCB7C82984644600AFD815 /* 125659-melting.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "125659-melting.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				4CBCB7AA29845A3E00AFD815 /* LottieAnimationsListApp.swift */,
+				4CBCB7C129845DF800AFD815 /* Animations */,
 				4CBCB7B929845B2C00AFD815 /* Models */,
 				4CBCB7B829845B1F00AFD815 /* Views */,
 				4CBCB7AE29845A4200AFD815 /* Assets.xcassets */,
@@ -86,6 +95,17 @@
 			children = (
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		4CBCB7C129845DF800AFD815 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				4CBCB7C429845F8800AFD815 /* 118267-guitar-to-axe-morphing.json */,
+				4CBCB7C82984644600AFD815 /* 125659-melting.json */,
+				4CBCB7C62984643B00AFD815 /* 82652-ghosts.json */,
+				4CBCB7C229845E3F00AFD815 /* Loading Cat.json */,
+			);
+			path = Animations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,8 +172,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CBCB7C529845F8800AFD815 /* 118267-guitar-to-axe-morphing.json in Resources */,
 				4CBCB7B229845A4200AFD815 /* Preview Assets.xcassets in Resources */,
+				4CBCB7C72984643B00AFD815 /* 82652-ghosts.json in Resources */,
 				4CBCB7AF29845A4200AFD815 /* Assets.xcassets in Resources */,
+				4CBCB7C92984644600AFD815 /* 125659-melting.json in Resources */,
+				4CBCB7C329845E3F00AFD815 /* Loading Cat.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
