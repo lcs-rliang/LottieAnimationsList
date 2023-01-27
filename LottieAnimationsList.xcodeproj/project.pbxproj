@@ -17,6 +17,7 @@
 		4CBCB7C529845F8800AFD815 /* 118267-guitar-to-axe-morphing.json in Resources */ = {isa = PBXBuildFile; fileRef = 4CBCB7C429845F8800AFD815 /* 118267-guitar-to-axe-morphing.json */; };
 		4CBCB7C72984643B00AFD815 /* 82652-ghosts.json in Resources */ = {isa = PBXBuildFile; fileRef = 4CBCB7C62984643B00AFD815 /* 82652-ghosts.json */; };
 		4CBCB7C92984644600AFD815 /* 125659-melting.json in Resources */ = {isa = PBXBuildFile; fileRef = 4CBCB7C82984644600AFD815 /* 125659-melting.json */; };
+		4CBCB7CB298464B400AFD815 /* GoodAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBCB7CA298464B400AFD815 /* GoodAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		4CBCB7C429845F8800AFD815 /* 118267-guitar-to-axe-morphing.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "118267-guitar-to-axe-morphing.json"; sourceTree = "<group>"; };
 		4CBCB7C62984643B00AFD815 /* 82652-ghosts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "82652-ghosts.json"; sourceTree = "<group>"; };
 		4CBCB7C82984644600AFD815 /* 125659-melting.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "125659-melting.json"; sourceTree = "<group>"; };
+		4CBCB7CA298464B400AFD815 /* GoodAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 		4CBCB7B929845B2C00AFD815 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				4CBCB7CA298464B400AFD815 /* GoodAnimation.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 				4CBCB7AB29845A3E00AFD815 /* LottieAnimationsListApp.swift in Sources */,
 				4CBCB7BB29845B5300AFD815 /* AnimationsListView.swift in Sources */,
 				4CBCB7C029845CD900AFD815 /* LottieCiew.swift in Sources */,
+				4CBCB7CB298464B400AFD815 /* GoodAnimation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
