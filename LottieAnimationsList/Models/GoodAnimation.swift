@@ -18,7 +18,7 @@ struct GoodAnimation: Identifiable {
 // Create a list of animations that are favourites
 let goods = [
     
-    GoodAnimation(fileName: "Loding Cat",
+    GoodAnimation(fileName: "Loading Cat",
                   description: "Loding Cat")
     
     ,
