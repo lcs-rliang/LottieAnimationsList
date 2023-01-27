@@ -8,8 +8,20 @@
 import SwiftUI
 
 struct AnimationsListView: View {
+    
+    // Computed properties
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        
+        List(goods) { GoodAnimation in
+            
+            NavigationLink(destination: {
+                LottieView(animationNamed: GoodAnimation.fileName)
+                
+            }, label: {
+                Text(GoodAnimation.description)
+            })
+        }
     }
 }
 
